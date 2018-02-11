@@ -1,0 +1,18 @@
+.geras-contract {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  input {
+    &.part-one {
+      width: 5rem;
+    }
+    &.part-two {
+      width: 3rem;
+    }
+  }
+  span {
+    margin: auto 0.5rem auto 0.5rem;
+  }
+}

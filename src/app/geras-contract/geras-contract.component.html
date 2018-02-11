@@ -1,0 +1,14 @@
+<div class="geras-contract">
+  <input
+    class="part-one"
+    #partOne
+    [(ngModel)]="part1"
+    (keydown)="partOneEvent($event)"
+    (keyup)="partOneEvent($event)" />
+  <span>-</span>
+  <input
+    class="part-two"
+    #partTwo
+    (keydown)="partTwoEvent($event)"
+    (keyup)="partTwoEvent($event)" />
+</div>
